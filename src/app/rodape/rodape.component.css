@@ -1,0 +1,22 @@
+.redes-sociais {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  
+  .redes-sociais a {
+    color: white;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+  
+  .redes-sociais a:hover {
+    color: rgb(237, 185, 18);
+  }
+
+  .footer{
+    background-color: black;
+    color: white;
+  }

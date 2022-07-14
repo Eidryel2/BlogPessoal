@@ -1,0 +1,63 @@
+<!-- Div agrupamento -->
+<div class=" container-fluid bg-color">
+
+    <div class="box-form align-item justify-content-center">
+
+        <div class="left">
+            <!-- Div Esquerdo texto -->
+
+            <div class="overlay">
+                <h1>Olá! Seja Bem-Vindo!!</h1>
+                <p> Blog Pessoal da Adrielly</p>
+
+                <h2>Ainda não tem conta? </h2>
+                <hr class="my-4">
+                <button class="btn-conta pt-3"><a routerLink="/cadastrar" style="color:black ;">Criar
+                        Conta</a></button>
+
+            </div>
+        </div>
+
+        <!-- Div Entrar Direito -->
+        <div class="right">
+            <br>
+            <h1 class="text-center mb-3">Entrar</h1>
+
+
+
+            <div class="wrapper">
+                <div class="input-data">
+                    <input [(ngModel)]='usuarioLogin.usuario' type="text" class="form-control" name="usuario"
+                        id="usuario" required>
+                    <div class="underline"></div>
+                    <label>Usuário E-mail</label>
+                </div>
+
+                <hr class="my-45">
+
+                <div class="wrapper">
+                    <div class="input-data">
+                        <input [(ngModel)]="usuarioLogin.senha" type="password" class="form-control" name="senha"
+                            id="senha" required>
+                        <div class="underline"></div>
+                        <label>Senha</label>
+                    </div>
+
+
+
+
+
+                    <hr class="my-4">
+
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-success" (click)='entrar()'>Entrar</button>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

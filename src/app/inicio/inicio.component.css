@@ -1,0 +1,39 @@
+/* girassol cmç */
+.capa {
+    background-image: url(https://i.imgur.com/HnH6GXZ.jpg);
+    background-repeat: none;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-repeat: none;
+    background-color: black;
+    color: rgb(237, 211, 18);
+    height: 400px;
+}
+
+.cor {
+    background-color: rgb(237, 211, 18);
+    border: none;
+}
+/* girasol img fim */
+
+
+
+/* modal cor */
+.modal-content {
+    background-color: #333;
+    color: white;
+}
+
+.modal-header {
+    color: rgb(237, 185, 18);
+    background-color: #333;
+
+}
+
+span {
+    color: rgb(237, 185, 18);
+}
+
+.form-group .a {
+    color: rgb(237, 185, 18);
+}

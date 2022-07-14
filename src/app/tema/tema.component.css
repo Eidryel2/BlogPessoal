@@ -1,0 +1,15 @@
+.cor {
+    background-color: rgb(237, 211, 18);
+    border: none;
+}
+
+.capa {
+    background-image: url(https://i.imgur.com/HnH6GXZ.jpg);
+    background-repeat: none;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-repeat: none;
+    background-color: black;
+    color: rgb(237, 211, 18);
+    height: 400px;
+}
