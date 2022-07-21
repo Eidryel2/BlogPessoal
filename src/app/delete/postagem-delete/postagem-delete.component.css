@@ -1,0 +1,9 @@
+.cor {
+    background-color: rgb(237, 211, 18);
+    border: none;
+}
+
+.card-body{
+    background-color: #333;
+    color: rgb(237, 211, 18);
+}

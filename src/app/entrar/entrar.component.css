@@ -37,8 +37,10 @@ a{
 }
 /* caixa esquerdo */
 .box-form .left {
-  background-image: url(https://i.imgur.com/Fjxr1s5.jpg?1);
-  background-position: center;
+  background-image: url(https://i.imgur.com/jupqpqn.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: black;
   filter: grayscale(0);
   text-align: center;
   color: #FFFFFF;
@@ -56,6 +58,7 @@ a{
   line-height: 1;
   font-weight: 900;
   margin-top: 15vh;
+  color: rgb(237, 185, 18);;
 }
 
 .box-form .left button {

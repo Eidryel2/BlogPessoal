@@ -1,4 +1,19 @@
 /* girassol cmç */
+
+.top{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #FF0000;
+    font-size: 50px;
+    z-index: +1111;
+  }
+
 .capa {
     background-image: url(https://i.imgur.com/HnH6GXZ.jpg);
     background-repeat: none;
@@ -6,17 +21,52 @@
     background-position: right;
     background-repeat: none;
     background-color: black;
-    color: rgb(237, 211, 18);
+    color: rgb(237, 185, 18);
     height: 400px;
 }
 
 .cor {
-    background-color: rgb(237, 211, 18);
+    background-color: rgb(237, 185, 18);
     border: none;
 }
+
+.form-control{
+    background-color: transparent;
+color:  rgb(237, 185, 18);
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid rgb(237, 185, 18);
+}
+.container-fluid{
+    background-color: rgb(244, 235, 197);
+}
+.nav{
+    background-color: rgb(237, 185, 18);
+    color: black !important;
+    border-radius: 20px;
+}
+
+.nav a{
+    color: black !important;
+}
+
+.nav-link :hover{
+    background-color: #FF0000 !important;
+    
+}
+
 /* girasol img fim */
+.card-body{
+    background-color: #333;
+    color: white;
+}
 
-
+.cards-text{
+    color: rgb(237, 211, 18) !important;
+}
 
 /* modal cor */
 .modal-content {
